@@ -93,9 +93,7 @@ step_discretize_xgb <-
            outcome = NULL,
            prop = 0.80,
            learn_rate = 0.3,
-           num_breaks = 10, # I actually think it's a reasonable, minimal default as 
-           # the XgBoost uses 256 as default. Furthermore, this parameter is defined as the maximum
-           # number of bins - smaller number could be chosen by the algorithm
+           num_breaks = 10, 
            tree_depth = 1,
            min_n = 5,
            rules = NULL,
