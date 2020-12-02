@@ -47,7 +47,7 @@
 #'  two factor outcomes are used, the log-odds reflect the event of
 #'  interest being the _first_ level of the factor.
 #'
-#' For novel levels, a slightly timmed average of the coefficients 
+#' For novel levels, a slightly trimmed average of the coefficients 
 #'  is returned.
 #' 
 #' A hierarchical generalized linear model is fit using 
